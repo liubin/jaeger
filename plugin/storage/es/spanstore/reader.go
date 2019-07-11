@@ -35,13 +35,13 @@ import (
 )
 
 const (
-	spanIndex                      = "jaeger-span-"
-	serviceIndex                   = "jaeger-service-"
+	spanIndex                      = "jaeger_span"
+	serviceIndex                   = "jaeger_service"
 	archiveIndexSuffix             = "archive"
-	archiveReadIndexSuffix         = archiveIndexSuffix + "-read"
-	archiveWriteIndexSuffix        = archiveIndexSuffix + "-write"
+	archiveReadIndexSuffix         = archiveIndexSuffix + "_read"
+	archiveWriteIndexSuffix        = archiveIndexSuffix + "_write"
 	traceIDAggregation             = "traceIDs"
-	indexPrefixSeparator           = "-"
+	indexPrefixSeparator           = "_"
 	indexPrefixSeparatorDeprecated = ":"
 
 	traceIDField           = "traceID"

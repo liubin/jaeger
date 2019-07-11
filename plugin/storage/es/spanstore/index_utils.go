@@ -20,8 +20,9 @@ import (
 
 // returns index name with date
 func indexWithDate(indexPrefix string, date time.Time) string {
-	spanDate := date.UTC().Format("2006-01-02")
-	return indexPrefix + spanDate
+	// spanDate := date.UTC().Format("2006-01-02")
+	// return indexPrefix + spanDate
+	return indexPrefix
 }
 
 // returns archive index name
